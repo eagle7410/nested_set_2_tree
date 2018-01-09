@@ -1,0 +1,42 @@
+{
+  "name": "web-sql-extension",
+  "version": "1.0.0",
+  "description": "Extension for web sql",
+  "main": "build/wed.sql.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha ./test/test.*.js",
+    "babel-watch": "./node_modules/.bin/webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eagle7410/nested_set_2_tree.git"
+  },
+  "keywords": [
+    "web",
+    "sql"
+  ],
+  "author": "Igor Scherbina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eagle7410/nested_set_2_treen/issues"
+  },
+  "homepage": "https://github.com/eagle7410/nested_set_2_tree#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-minify-webpack-plugin": "0.2.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "grunt": "^1.0.1",
+    "grunt-jsdoc-to-markdown": "^1.2.1",
+    "mocha": "4.0.1",
+    "ng-html2js": "^3.0.0",
+    "webpack": "3.6.0",
+    "webpack-dev-server": "2.9.1"
+  }
+}
